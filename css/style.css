@@ -7,6 +7,7 @@
 #heading2 {
   color: yellow;
 } */
+/* selectors in css example starts from here  */
 .mainconatiner .innercontainer p {
   color: red;
 }
@@ -29,6 +30,7 @@
   border-radius: 4px;
   padding: 5px 10px;
 }
+/* pseudo-class examples starts from here  */
 #loginbtn:hover {
   background-color: greenyellow;
 }
@@ -53,4 +55,37 @@
 }
 #unorderedlist li:nth-child(odd) {
   color: blue;
+}
+#vistitedexample:visited {
+  color: black;
+}
+
+/* pseudo-element examples starts from here  */
+#pseudoelement::first-line {
+  color: red;
+}
+#pseudoelement::first-letter {
+  font-size: 30px;
+  color: blue;
+}
+#pseudoelement::selection {
+  background-color: black;
+  color: white;
+}
+#pseudoelement::before {
+  content: "";
+  padding: 5px 10px;
+  border-radius: 100%;
+  background-color: blue;
+  margin-right: 10px;
+}
+#pseudoelement::after {
+  content: "after content";
+  font-style: italic;
+  color: gray;
+}
+#pseudoinput::placeholder {
+  font-size: 8px;
+  font-style: italic;
+  color: green;
 }
