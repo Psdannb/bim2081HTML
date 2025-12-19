@@ -1,0 +1,17 @@
+Assignment 2: Simple Product Card
+
+Create a product card layout using HTML and CSS.
+
+Requirements:
+
+Include product image, name, description, and price
+
+Apply:
+
+Box model properties (padding, border, margin)
+
+Background color for the card
+
+Different font styles for product name and price
+
+Center the card on the page

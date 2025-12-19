@@ -89,3 +89,32 @@
   font-style: italic;
   color: green;
 }
+
+/* from here we start the box model css  */
+#boxmodel {
+  background-color: gray;
+  /* border-width: 1px;
+  border-style: groove;
+  border-color: red; */
+  border: 1px solid red;
+  margin-bottom: 20px;
+  /* margin: 10px 2px 1px 10px; */
+  /* padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  height: 100px;
+  width: 400px;
+}
+#seconddiv {
+  /* margin-top: 100px; */
+  /* margin-left: 10px; */
+  background-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 17, 255);
+}
+
+/* text related css prop  */
+#boxmodel p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

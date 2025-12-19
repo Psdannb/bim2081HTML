@@ -1,0 +1,17 @@
+body {
+  /* background-image: url(../images/download.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-y; */
+
+  /* background-position: center; */
+  /* background-position: bottom; */
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-attachment: fixed; */
+  background: rgba(139, 96, 96, 0.822) url(../images/download.jpg) no-repeat
+    fixed;
+}
+p {
+  color: white;
+  font-size: 10px;
+}
