@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+header {
+  display: flex;
+  margin-top: 20px;
+}
+header .logo {
+  width: 100px;
+  height: 100px;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .headertext p {
+  font-size: 20px;
+  color: green;
+}
+header .headertext p #firstp {
+  color: blue !important;
+}
+main {
+  margin-top: 40px;
+}
+main .mainimage {
+  display: flex;
+  align-items: flex-end;
+  /* border: 1px solid red; */
+  position: relative;
+}
+main .mainimage .firstimage {
+  width: 350px;
+  height: 350px;
+  border: 20px solid blue;
+  border-radius: 100%;
+  z-index: 2;
+}
+main .mainimage .firstimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+main .mainimage .secondimage {
+  margin-left: -30px;
+  width: 150px;
+  height: 150px;
+  border: 15px solid blue;
+  border-radius: 100%;
+  z-index: 2;
+}
+main .mainimage .secondimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+main .mainimage .overlayimage {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  z-index: 1;
+  transform: rotate(160deg);
+}
+main .mainimage .overlayimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+form {
+  margin-top: 30px;
+}
