@@ -82,3 +82,61 @@ main .mainimage .overlayimage img {
 form {
   margin-top: 30px;
 }
+form fieldset {
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+form fieldset .formgroup {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+form fieldset .formgroup input {
+  width: 90%;
+  border: none;
+  border-bottom: 2px dotted black;
+  outline: none;
+  height: 10px;
+}
+form fieldset .formgroup .subgroup {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 5px 0px;
+}
+footer {
+  margin-top: 20px;
+}
+footer .footertext {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+footer .footertext p,
+footer .footertext2 p {
+  max-width: 70%;
+  text-align: justify;
+  padding: 5px;
+}
+footer .footertext2 {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+footer .footertext2 i {
+  font-size: 40px;
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
