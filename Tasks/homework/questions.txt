@@ -1,0 +1,24 @@
+js questions for you guys
+Qn 1:
+Grade Calculator Write a script that assigns a letter grade based on a numerical score:
+
+90+ : "A"
+
+80–89: "B"
+
+70–79: "C"
+
+Below 70: "F"
+
+Key Concept: Chaining else if blocks in descending order.
+
+Qn 2:
+ Temperature Advisor Create a program that suggests what to wear based on the temperature (Celsius):
+
+Below 10: "Wear a heavy jacket."
+
+10–20: "A light sweater will do."
+
+21–30: "Enjoy the T-shirt weather."
+
+Above 30: "It's hot! Stay hydrated."
