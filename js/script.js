@@ -88,3 +88,147 @@ else{
 // } else {
 //   console.log("Your age is not valid to have a citizenship card ");
 // }
+
+// switch
+/*variable 
+switch(variable){
+    case condition :{
+        block of code to execute if condition is true
+    }
+}
+    */
+//    Example
+// let day = 1;
+// switch (day) {
+//   //if(day==1)
+//   case 1: {
+//     console.log("Today is sunday");
+//     break;
+//   }
+//   //else if(day==2)
+//   case 2: {
+//     console.log("Today is monday");
+//     break;
+//   }
+//   case 3: {
+//     console.log("Today is Tuesday");
+//     break;
+//   }
+//   case 4: {
+//     console.log("Today is wednesday");
+//     break;
+//   }
+//   case 5: {
+//     console.log("Today is Thursday");
+//     break;
+//   }
+//   case 6: {
+//     console.log("Today is Friday");
+//     break;
+//   }
+//   case 7: {
+//     console.log("Today is saturday");
+//     break;
+//   }
+//   default: {
+//     console.log("Invalid number");
+//   }
+// }
+
+// let day = "abc";
+// switch (day) {
+//   //if(day=="sun")
+//   case "sun": {
+//     console.log("Today is sunday");
+//     break;
+//   }
+//   case "mon": {
+//     console.log("Today is monday");
+//     break;
+//   }
+//   case "tue": {
+//     console.log("Today is Tuesday");
+//     break;
+//   }
+//   case "wed": {
+//     console.log("Today is wednesday");
+//     break;
+//   }
+//   case "thu": {
+//     console.log("Today is Thursday");
+//     break;
+//   }
+//   case "fri": {
+//     console.log("Today is Friday");
+//     break;
+//   }
+//   case "sat": {
+//     console.log("Today is saturday");
+//     break;
+//   }
+//   default: {
+//     console.log("Invalid day");
+//   }
+// }
+
+// loop
+/*
+for loop 
+for(initialization ; condition ; increment/ decrement){
+block of code to execute until the is true 
+}
+*/
+
+// for (let i = 0; i < 5; i++) {
+//   //   console.log(i);
+//   document.write(i);
+//   document.write("<br>");
+// }
+
+// for (let i = 5; i >= 1; i--) {
+//   for (let j = 1; j <= i; j++) {
+//     document.write(j);
+//   }
+//   document.write("<br>");
+// }
+
+// for (let i = 5; i >= 1; i--) {
+//   if (i == 3) {
+//     for (let j = 1; j <= i; j++) {
+//       document.write("#");
+//       document.writeln(" ");
+//     }
+//   } else {
+//     for (let j = 1; j <= i; j++) {
+//       document.write("*");
+//       document.writeln(" ");
+//     }
+//   }
+
+//   document.write("<br>");
+// }
+
+// for (let i = 5; i >= 1; i--) {
+//   for (let j = 1; j <= i; j++) {
+//     if (i == 5 && j == 3) {
+//       document.write("#");
+//       document.writeln(" ");
+//     } else {
+//       document.write("*");
+//       document.writeln(" ");
+//     }
+//   }
+//   document.write("<br>");
+// }
+
+// for (let i = 11; i >= 1; i -= 2) {
+//   for (let j = 1; j <= i; j++) {
+//     document.write("*");
+//     document.writeln(" ");
+//   }
+
+//   document.write("<br>");
+//   for (let a = 11; a >= i; a -= 2) {
+//     document.writeln("&nbsp");
+//   }
+// }
