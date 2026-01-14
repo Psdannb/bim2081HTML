@@ -232,3 +232,80 @@ block of code to execute until the is true
 //     document.writeln("&nbsp");
 //   }
 // }
+
+//break in loop
+// for (let i = 1; i <= 5; i++) {
+//   if (i == 2) {
+//     document.write(i);
+//     document.write("<br>");
+//     break;
+//   }
+//   document.write(i);
+//   document.write("<br>");
+// }
+
+// continue in loop
+// for (let i = 1; i <= 5; i++) {
+//   if (i == 2) {
+//     continue;
+//   }
+//   document.write(i);
+//   document.write("<br>");
+// }
+
+// functions
+
+// function function-name(){
+//     //block of code
+// }
+
+// function_name()
+
+function greet() {
+  document.write("Hello guys welcome to web technology");
+}
+// greet();
+// greet();
+
+// function sum(a, b) {
+//   let c = a + b;
+//   document.writeln("The sum of two nummer is:", c);
+// }
+// sum(20, 3, 5);
+
+function add() {
+  let a = 5;
+  let b = 4;
+  return a + b;
+}
+// let r = add();
+// document.writeln("The output is :", r);
+
+function sum(a, b) {
+  return a + b;
+}
+// let result = sum(4, 5);
+// document.writeln("The sum of two nummer is:", result);
+
+function calculator(a, b, o) {
+  switch (o) {
+    case "+": {
+      return a + b;
+    }
+    case "-": {
+      return a - b;
+    }
+    case "*": {
+      return a * b;
+    }
+    case "/": {
+      return a / b;
+    }
+    default: {
+      return "Enter a valid symbol ";
+    }
+  }
+}
+// Array,spread operator
+let result = calculator(2, 3, "-");
+console.log(result);
