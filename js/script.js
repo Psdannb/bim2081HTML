@@ -307,5 +307,57 @@ function calculator(a, b, o) {
   }
 }
 // Array,spread operator
-let result = calculator(2, 3, "-");
-console.log(result);
+// let result = calculator(2, 3, "-");
+// console.log(result);
+
+//arrow function;
+const arrowFn =()=>{
+	console.log("This is arrow function");
+}
+// arrowFn();
+
+// ()=>{
+	// console.log("I am anonymous function");
+// }
+
+const arrowsum =(a,b)=>{
+// console.log(a+b);
+return a+b;
+}
+
+// let res=arrowsum(2,3);
+// console.log(res);
+
+const multiplereturn= ()=>{
+	return(
+	`<div>
+	<p> hello world </p>
+	<p> hello world </p>
+	</div>`
+	);
+}
+
+// console.log(multiplereturn());
+
+
+// self invoked function
+// (function selfinvoked (){
+// console.log(" i am self invoked / called function");
+// }())
+
+// recursive function 
+// factorial of a number 
+
+function factorial (number){
+	if(number <0){
+		return`undefined `;
+	}
+	if(number==0){
+		return 1;
+	}
+	return number*factorial(number-1);
+}
+let factresult= factorial(-4);
+console.log(factresult);
+	
+
