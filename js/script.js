@@ -311,53 +311,59 @@ function calculator(a, b, o) {
 // console.log(result);
 
 //arrow function;
-const arrowFn =()=>{
-	console.log("This is arrow function");
-}
+const arrowFn = () => {
+  console.log("This is arrow function");
+};
 // arrowFn();
 
 // ()=>{
-	// console.log("I am anonymous function");
+// console.log("I am anonymous function");
 // }
 
-const arrowsum =(a,b)=>{
-// console.log(a+b);
-return a+b;
-}
+const arrowsum = (a, b) => {
+  // console.log(a+b);
+  return a + b;
+};
 
 // let res=arrowsum(2,3);
 // console.log(res);
 
-const multiplereturn= ()=>{
-	return(
-	`<div>
+const multiplereturn = () => {
+  return `<div>
 	<p> hello world </p>
 	<p> hello world </p>
-	</div>`
-	);
-}
+	</div>`;
+};
 
 // console.log(multiplereturn());
-
 
 // self invoked function
 // (function selfinvoked (){
 // console.log(" i am self invoked / called function");
 // }())
 
-// recursive function 
-// factorial of a number 
+// recursive function
+// factorial of a number
 
-function factorial (number){
-	if(number <0){
-		return`undefined `;
-	}
-	if(number==0){
-		return 1;
-	}
-	return number*factorial(number-1);
+function factorial(number) {
+  if (number < 0) {
+    return `undefined `;
+  }
+  if (number == 0) {
+    return 1;
+  }
+  return number * factorial(number - 1);
 }
-let factresult= factorial(-4);
-console.log(factresult);
-	
+// let factresult= factorial(-4);
+// console.log(factresult);
 
+// dialog box
+// alert, prompt, confirm
+
+// alert("Welcome");
+
+// let userres = confirm("Are you human?");
+// console.log(userres);
+
+// let userres = prompt("Enter your grade");
+// console.log(userres);

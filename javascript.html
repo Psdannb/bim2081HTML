@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="radiobtn(event)">
+      <label for="">Gander</label>
+      <input type="radio" value="male" class="gender" checked name="gender" />
+      <label for="">Male</label>
+      <input type="radio" value="female" class="gender" name="gender" />
+      <label for="">Female</label>
+      <input type="submit" />
+    </form>
+  </body>
+  <script>
+    function radiobtn(event) {
+      let btnvalue = "";
+      event.preventDefault();
+      let radiobtns = document.querySelectorAll(".gender");
+      //   console.log(radiobtns);
+      radiobtns.forEach((button) => {
+        if (button.checked) {
+          btnvalue = button.value;
+        }
+      });
+      console.log(btnvalue);
+    }
+  </script>
+</html>

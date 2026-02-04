@@ -1,15 +1,11 @@
 js questions for you guys
 Qn 1:
-Grade Calculator Write a script that assigns a letter grade based on a numerical score:
-
+Grade Calculator Write a script that assigns a letter grade
+ based on a numerical score:
 90+ : "A"
-
 80–89: "B"
-
 70–79: "C"
-
 Below 70: "F"
-
 Key Concept: Chaining else if blocks in descending order.
 
 Qn 2:
