@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+  </head>
+  <style>
+    .tododiv {
+      border: 1px solid black;
+      margin: 5px;
+    }
+  </style>
+  <body>
+    <form id="entryform">
+      <input type="text" id="title" placeholder="Enter the todo title" />
+      <input
+        type="text"
+        id="description"
+        placeholder="Enter the todo description"
+      />
+      <input type="submit" value="Add" />
+    </form>
+
+    <div id="todostask"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
