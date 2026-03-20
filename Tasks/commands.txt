@@ -1,0 +1,10 @@
+to fetch specific file 
+
+git fetch orgin 
+git git checkout origin/main --tasks/commands.txt
+
+
+to fetch whole folder
+
+git fetch orgin 
+git git checkout origin/main --tasks/
